@@ -1,0 +1,33 @@
+{
+  "prev_model": {
+    "model_id": "birch",
+    "metric": "Silhouette",
+    "score": 0.5366
+  },
+  "final_model": {
+    "model_id": "kmeans",
+    "num_clusters": 3
+  },
+  "agreement": {
+    "ARI": null,
+    "NMI": null
+  },
+  "sizes_prev": {
+    "Cluster 0": 42,
+    "Cluster 1": 14,
+    "Cluster 2": 1,
+    "Cluster 3": 383
+  },
+  "sizes_final": {
+    "Cluster 0": 350,
+    "Cluster 1": 53,
+    "Cluster 2": 37
+  },
+  "mapping_prev_to_final": {
+    "Cluster 3": "Cluster 0",
+    "Cluster 0": "Cluster 2",
+    "Cluster 1": "Cluster 1"
+  },
+  "plots_included": [],
+  "generated_at": "2025-11-02T16:00:17"
+}
